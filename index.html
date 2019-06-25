@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width-device-width , initial-scale=1.0">
+    <title>JavaScript Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script></script>
+  </head>
+
+  <body>
+    <header>
+      <div class ="row"> 
+
+        <div class="start">
+          <h1>JavaScript Quiz</h1>
+          <h3>Welcome! <br> Answer the following 5 questions to test <br>your knowledge of JS!! </h3> 
+        </div>
+        <a class="start_button" type="button" href="#">Begin Quiz</a>
+      </div>
+    
+    </header> 
+
+    <main role="main">
+
+      <div class="quiz">
+        <section>
+            <img src="https://cdn-images-1.medium.com/max/2000/1*JinuD4VWgK0Iw0hXcALATA.jpeg" alt ="JavaScript image" class="JS-image">    
+        </section>
+        <form class="js-quiz-form">
+          <fieldset>
+            <h2>Question Title</h2>
+            <ul></ul>
+          
+            <a href="#" class='submit' type='button'>Select</a>
+          </fieldset> 
+            <div class = "questionNumber"></div>
+        </form>
+        <section class="response">
+          <h3></h3>
+          <p class="statements"></p>
+          <p class="score"></p>
+          <a href="#" class="next-button" type ='button' name= 'Dynamic_Next_Button' value= 'Next'>Next >></a>
+          <a href="#" class="finish-button" type ='button' value= 'Finish'>Finish</a>
+        </section>      
+      </div>
+
+      <section>
+        <div class ="summary">
+            <h2>Summary Screen</h2>
+            <p>You scored x out of y correct!</p>
+        </div>
+        <div class= "restartDiv"><a class='restartQuiz' href="#">Restart Quiz</a></div>
+      </section>
+
+      <div class="alert-box"> 
+        <h4>
+          Please select an option
+        </h4>
+        <a href="#" class="close-window" type='button'> Close</a> 
+      </div>
+      
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="index.js"></script>
+
+  </body>
+</html>
